@@ -12,6 +12,7 @@
 		D26664E4227C67AA003727E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26664E2227C67AA003727E7 /* Main.storyboard */; };
 		D26664E6227C67B1003727E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26664E5227C67B1003727E7 /* Assets.xcassets */; };
 		D26664E9227C67B1003727E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26664E7227C67B1003727E7 /* LaunchScreen.storyboard */; };
+		D26664F1227C680D003727E7 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26664F0227C680D003727E7 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D26664E5227C67B1003727E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D26664E8227C67B1003727E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D26664EA227C67B1003727E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26664F0227C680D003727E7 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				D26664DD227C67AA003727E7 /* UIStackViewTest */,
-				D26664DC227C67AA003727E7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +50,7 @@
 				D26664DB227C67AA003727E7 /* UIStackViewTest.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D26664DD227C67AA003727E7 /* UIStackViewTest */ = {
@@ -57,9 +59,11 @@
 				D26664DE227C67AA003727E7 /* AppDelegate.swift */,
 				D26664E0227C67AA003727E7 /* ViewController.swift */,
 				D26664E2227C67AA003727E7 /* Main.storyboard */,
+				D26664F0227C680D003727E7 /* RatingControl.swift */,
 				D26664E5227C67B1003727E7 /* Assets.xcassets */,
 				D26664E7227C67B1003727E7 /* LaunchScreen.storyboard */,
 				D26664EA227C67B1003727E7 /* Info.plist */,
+				D26664DC227C67AA003727E7 /* Products */,
 			);
 			path = UIStackViewTest;
 			sourceTree = "<group>";
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D26664E1227C67AA003727E7 /* ViewController.swift in Sources */,
+				D26664F1227C680D003727E7 /* RatingControl.swift in Sources */,
 				D26664DF227C67AA003727E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
